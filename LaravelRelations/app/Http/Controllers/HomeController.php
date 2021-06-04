@@ -17,7 +17,7 @@ class HomeController extends Controller
         return view('pages.home', compact('cars'));
     }
 
-    public function pilots($id){
+    public function pilot($id){
 
         $pilot = Pilot::findOrFail($id);
 
